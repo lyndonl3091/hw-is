@@ -10,9 +10,6 @@ import { ColumnWrapper } from './styles/common'
 
 export const SplashPage = () => {
 
-
-  console.log('configs: ', process.env)
-
     const [listOfPersons, setListOfPersons] = useState([])
 
     useEffect(() => {
